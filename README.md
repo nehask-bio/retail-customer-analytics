@@ -63,6 +63,16 @@ The project is complete. The final workflow includes PostgreSQL and SQL analysis
 - The decline in December 2017 should be reviewed alongside seasonality, stock availability and delivery performance.
 - Missing product categories and delivery dates should continue to be monitored because data-quality issues can affect reporting accuracy.
 
+## Excel Analysis
+
+### KPI Summary
+
+![Excel KPI Summary](figures/excel_kpi_summary.png)
+
+### Orders by Customer State
+
+![Excel Orders by Customer State](figures/excel_orders_by_state.png)
+
 ## Power BI Dashboard
 
 ### Executive Overview
