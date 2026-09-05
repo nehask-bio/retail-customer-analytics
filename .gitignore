@@ -2,15 +2,17 @@
 data/raw/
 *.csv
 
-# Archives
+# Large working files
+*.xlsx
+*.pbix
 *.zip
 
-# Python/Jupyter temporary files
+# Python and Jupyter temporary files
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
 
-# Local Anaconda files
+# Local application files
 anaconda_projects/
 
 # Operating-system files
