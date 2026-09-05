@@ -1,10 +1,10 @@
 # Retail & Customer Analytics with SQL, Excel, Python and Power BI
 
-I built this project using the Olist Brazilian e-commerce dataset to understand how the business was performing across orders, customers, products and regions.
+I built this project using the Olist Brazilian e-commerce dataset to understand how the business performed across orders, customers, products and regions.
 
-The analysis was carried out using SQL, Excel, Python and Power BI. I used SQL for querying and data checks, Python for cleaning and exploratory analysis, Excel for KPI calculations and pivot-based analysis, and Power BI for the final dashboard.
+I used SQL for querying and data-quality checks, Python for cleaning and exploratory analysis, Excel for KPI calculations and pivot-based analysis, and Power BI for the final dashboard.
 
-The main aim was to answer practical business questions such as:
+The project answers practical business questions such as:
 
 - How many orders were successfully delivered?
 - How much merchandise value was generated?
@@ -43,31 +43,25 @@ The project is complete. The final workflow includes PostgreSQL and SQL analysis
 
 ## Key Findings
 
-A few clear patterns stood out from the analysis.
-
 - The dataset contains 96,478 delivered orders.
-- Delivered merchandise value was about 13.22 million.
-- Average delivered order value was about 137.04.
-- November 2017 was the strongest month, with merchandise value of 987,765.37.
-- The biggest month-on-month increase was in February 2017 at about 109.5%.
-- The biggest month-on-month fall was in December 2017 at about 26.5%.
-- Customer retention was quite low. Only 2,997 customers placed more than one order, giving a repeat customer rate of about 3.12%.
-- São Paulo had by far the largest customer base, followed by Rio de Janeiro and Minas Gerais.
-- The highest-value product categories included health and beauty, watches and gifts, bed and bath, sports and leisure, and computer accessories.
-- I also found some data-quality issues, including missing product categories and a very small number of delivered orders with missing delivery dates.
-
-
+- Delivered merchandise value was approximately R$13.22 million.
+- Average delivered order value was approximately R$137.04.
+- November 2017 was the strongest month, generating R$987,765.37 in delivered merchandise value.
+- The largest month-on-month increase occurred in February 2017 at approximately 109.5%.
+- The largest month-on-month decrease occurred in December 2017 at approximately 26.5%.
+- Only 2,997 customers placed more than one order, resulting in a repeat-purchase rate of approximately 3.12%.
+- São Paulo had the largest customer base, followed by Rio de Janeiro and Minas Gerais.
+- The highest-value product categories included health and beauty, watches and gifts, bed, bath and table, sports and leisure, and computer accessories.
+- The data-quality checks identified missing product categories and a small number of delivered orders with missing delivery dates.
 
 ## Business Recommendations
 
-Based on the analysis, there are a few areas the business could focus on.
-
-- Customer retention should be a priority because only a small percentage of customers placed more than one order. Retention campaigns, loyalty offers or follow-up promotions could help encourage repeat purchases.
-- São Paulo is the largest customer market, so it would make sense to prioritise marketing, delivery performance and customer service in that region.
-- High-value product categories such as health and beauty, watches and gifts, bed and bath, sports and leisure, and computer accessories should receive close attention because they contribute a large share of merchandise value.
-- The strong performance in November 2017 suggests that seasonal or promotional periods can have a major impact. Similar campaign periods could be analysed further to understand what drove the increase.
-- The sharp decline in December 2017 should be investigated alongside seasonality, stock availability and delivery performance to understand whether the drop was expected or operational.
-- Missing product categories and a small number of missing delivery dates should continue to be monitored because data-quality issues can affect reporting accuracy.
+- Customer retention should be a priority because only a small percentage of customers placed more than one order. Loyalty rewards, personalised offers and follow-up promotions could help encourage repeat purchases.
+- São Paulo is the largest customer market, so marketing, delivery performance and customer service should receive particular attention in that region.
+- High-value product categories should be monitored closely because they contribute a large share of merchandise value.
+- The strong performance in November 2017 could be investigated further to determine whether it was driven by promotions, seasonal demand or particular product categories.
+- The decline in December 2017 should be reviewed alongside seasonality, stock availability and delivery performance.
+- Missing product categories and delivery dates should continue to be monitored because data-quality issues can affect reporting accuracy.
 
 ## Power BI Dashboard
 
@@ -82,3 +76,17 @@ Based on the analysis, there are a few areas the business could focus on.
 ### Product Performance
 
 ![Product Performance](figures/product_performance.png)
+
+## Repository Structure
+
+- `SQL/` — database setup, data-quality checks and business analysis queries
+- `notebooks/` — Python data validation and exploratory analysis
+- `figures/` — screenshots of the Power BI dashboard pages
+- `docs/` — data dictionary
+- `data/` — dataset information and source attribution
+
+## Dataset and Working Files
+
+The analysis uses the [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), published by Olist under the [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This is a personal, non-commercial portfolio project. The original CSV files are not included. The Excel and Power BI working files are also excluded because they contain embedded copies of the source data. Dashboard screenshots are provided above.
